@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Responsive Web Design -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+     
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    
+    <link rel="canonical" href="https://getbootstrap.com/docs/3.3/examples/carousel/">
+
+    <title>Carousel Template for Bootstrap</title>
+
+   
+
+ <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <link href="final/css/carousel.css" rel="stylesheet">
+
+
+
+
+
+
+
+
+<!-- NAVBAR barra de navegación
+================================================== -->
+  <body>
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <nav class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Curriculum Vitae</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Inicio</a></li>
+                <li><a href="index.html">Sobre mi</a></li>
+
+                <li><a href="#">Contactame</a></li>
+                
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+      </div>
+    </div>
+
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+
+          <br></br>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <center><img class="first-slide" src="img/anahi.jpg" width="35%" height="35%" class="img-circle"  alt="First slide"></center>
+          
+          <br></br>
+          <div class="container">
+            <div class="carousel-caption">
+              <h5>CEBALLOS ANAHI BETIANA.</h5>
+              <h5>AUXILIAR ADMINISTRATIVA</h5>
+              <h5>DESARROLLADORA WEB FRONT-END</h5>
+               <p>Actualmente trabajando en Poder Judicial</p><p>Villa Mercedes.<br></br><p> como Auxiliar Administrativa.</p><p><strong>Conocimientos básicos en Html, Css, JavaScript, My Sql6.3, Php.</p></strong>
+              <p><a class="btn btn-lg btn-success" href="#" role="button">Contactame</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Another example headline.</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>One more for good measure.</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><!-- /.carousel -->
+
+    <div class="row">
+      <div class="col-md-2"></div>
+      <div class="col-md-6">
+        <center><h1>¿QUIEN SOY?</h1></center>
+        <br>
+        <p align="justify">Soy una persona emprendedora, alegre y confiable, siempre buscando la manera de ayudar a otros y de ser mejor persona.
+        </p>
+        <p align="justify">Desde que tuve mi primer computadora  a los 35 años tuve inquietud por aprender continuamente, a los 36 empece a estudiar Analista y Programador en la Universidad Unvime, curse 3 años en total en donde tengo 17 materias aprobadas y deje porque necesitaba trabajar, me capacite en muchos cursos como armado y reparación de Pc, Redes, Operador Office, Seguridad Informática.Actualmente en mis tiempos libres estudio Diseño Web, es un desafío ya que me quedo pendiente terminar.Aspiro a convertirme en una gran Desarrolladora Web Full-Stack, ya que todo lo que hago le pongo muchas ganas.
+        </p>
+        <p align="justify">A los 36 años  luego de rendir y quedar en una lista  de orden de mérito ,luego de una larga espera entre a trabajar al Poder Judicial de Villa Mercedes como Auxiliar Administrativa y comence a estudiar Abogacía en la Universidad Siglo 21, ya tengo 41 materias aprobadas, me falta EFIP 1,2,Seminario,Daños y Sucesiones para completar la carrera.Desde el año 2017 desde que entre a trabajar  dicto cursos para la comunidad <em>add honorem </em>en la Plataforma de la UlP. 
+        </p>
+        <br>
+        <p align="center"><a class="btn btn-lg btn-success" href="#" role="button">Contactame</a></p>
+      </div>
+
+      <div class="col-md-4">
+        <img src="img/acerca.jpg" width="60%" height="50%"  class="img-thumbnail">
+      </div>
+
+    </div>
+    <br>
+    <center>
+      <strong>Todos los derechos reservados</strong></br>
+    Disegn By Anahi Betiana Ceballoas</br>
+    2023
+  </center>
+        </p>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+   <!-- Latest compiled and minified JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="../../assets/js/vendor/holder.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
